@@ -36,10 +36,10 @@ const prepartita = [
     },
     {
         id: 6,
-        title: "PAROLA ALLA COMMUNITY!",
-        description: "L'avete voluto voi...",
-        isImprev: true,
-        ultEstrazione: true
+        title: "nessun imprevisto",
+        description: "-",
+        isImprev: false,
+        ultEstrazione: false
     },
     {
         id: 7,
@@ -50,16 +50,16 @@ const prepartita = [
     },
     {
         id: 8,
-        title: "nessun imprevisto",
-        description: "-",
-        isImprev: false,
+        title: "SPAZIO AI REGAZ!",
+        description: "Un giocatore della Primavera subito titolare.",
+        isImprev: true,
         ultEstrazione: false
     },
     {
         id: 9,
-        title: "SPAZIO AI REGAZ!",
-        description: "Un giocatore della Primavera subito titolare.",
-        isImprev: true,
+        title: "nessun imprevisto",
+        description: "-",
+        isImprev: false,
         ultEstrazione: false
     },
     {
@@ -71,17 +71,17 @@ const prepartita = [
     },
     {
         id: 11,
-        title: "nessun imprevisto",
-        description: "-",
-        isImprev: false,
-        ultEstrazione: false
-    },
-    {
-        id: 12,
         title: "INFORTUNIO!",
         description: "Il giocatore estratto salterà la partita per infortunio.",
         isImprev: true,
         ultEstrazione: true
+    },
+    {
+        id: 12,
+        title: "nessun imprevisto",
+        description: "-",
+        isImprev: false,
+        ultEstrazione: false
     },
     {
         id: 13,
@@ -92,17 +92,17 @@ const prepartita = [
     },
     {
         id: 14,
-        title: "nessun imprevisto",
-        description: "-",
-        isImprev: false,
-        ultEstrazione: false
-    },
-    {
-        id: 15,
         title: "CREDO IN TE",
         description: "Schiera titolare uno tra i tre peggiori giocatori in rosa.",
         isImprev: true,
         ultEstrazione: true
+    },
+    {
+        id: 15,
+        title: "nessun imprevisto",
+        description: "-",
+        isImprev: false,
+        ultEstrazione: false
     },
     {
         id: 16,
@@ -113,17 +113,17 @@ const prepartita = [
     },
     {
         id: 17,
-        title: "nessun imprevisto",
-        description: "-",
-        isImprev: false,
-        ultEstrazione: false
-    },
-    {
-        id: 18,
         title: "INFORTUNIO!",
         description: "Il giocatore estratto salterà la partita per infortunio.",
         isImprev: true,
         ultEstrazione: true
+    },
+    {
+        id: 18,
+        title: "nessun imprevisto",
+        description: "-",
+        isImprev: false,
+        ultEstrazione: false
     },
     {
         id: 19,
@@ -134,36 +134,36 @@ const prepartita = [
     },
     {
         id: 20,
-        title: "nessun imprevisto",
-        description: "-",
-        isImprev: false,
-        ultEstrazione: false
-    },
-    {
-        id: 21,
         title: "SPAZIO AI REGAZ!",
         description: "Un giocatore della Primavera subito titolare.",
         isImprev: true,
         ultEstrazione: false
     },
     {
-        id: 22,
+        id: 21,
         title: "nessun imprevisto",
         description: "-",
         isImprev: false,
         ultEstrazione: false
     },
     {
-        id: 23,
+        id: 22,
         title: "CREDO IN TE",
         description: "Schiera titolare uno tra i tre peggiori giocatori in rosa.",
         isImprev: true,
         ultEstrazione: true
     },
     {
+        id: 23,
+        title: "nessun imprevisto",
+        description: "-",
+        isImprev: false,
+        ultEstrazione: false
+    },
+    {
         id: 24,
-        title: "PAROLA ALLA COMMUNITY!",
-        description: "L'avete voluto voi...",
+        title: "RIVOLUZIONE!",
+        description: "La squadra titolare viene cambiata per i suoi 5/11mi",
         isImprev: true,
         ultEstrazione: true
     },
@@ -176,8 +176,8 @@ const prepartita = [
     },
     {
         id: 26,
-        title: "RIVOLUZIONE!",
-        description: "La squadra titolare viene cambiata per i suoi 5/11mi",
+        title: "INFORTUNIO!",
+        description: "Il giocatore estratto salterà la partita per infortunio.",
         isImprev: true,
         ultEstrazione: true
     },
@@ -190,18 +190,18 @@ const prepartita = [
     },
     {
         id: 28,
-        title: "INFORTUNIO!",
-        description: "Il giocatore estratto salterà la partita per infortunio.",
-        isImprev: true,
-        ultEstrazione: true
-    },
-    {
-        id: 29,
         title: "nessun imprevisto",
         description: "-",
         isImprev: false,
         ultEstrazione: false
     },
+    {
+        id: 20,
+        title: "SPAZIO AI REGAZ!",
+        description: "Un giocatore della Primavera subito titolare.",
+        isImprev: true,
+        ultEstrazione: false
+    }
 ]
 
 export default prepartita;
